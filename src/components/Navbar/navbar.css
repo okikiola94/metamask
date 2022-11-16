@@ -85,7 +85,7 @@ width: 150px;
         justify-content: space-between;
         margin: 0%;
         max-width: 90%;
-        padding: 2rem 1rem;
+        padding:  1rem;
         position: relative;
         left: 0px;
         top: 0;
@@ -96,6 +96,11 @@ width: 150px;
     
     .navigation-menu{
         display: none;
+    }
+
+    .logo-image_container {
+        padding-left: 0%;
+        padding-top: 0px;
     }
     
     .hamburger{
