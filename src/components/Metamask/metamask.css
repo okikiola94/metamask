@@ -64,7 +64,7 @@ cursor: pointer;
 .image-wrapper{
     width: 260px;
     height: 265px;
-    padding: 1px;
+    padding: 11px;
     top: 16px;
     }
 
@@ -153,7 +153,13 @@ line-height: 8px;
         height: fit-content;
         margin-left: 12%;
 }
-    
+   
+.image-wrapper {
+    width: 260px;
+    height: 265px;
+    padding: 1px;
+    top: 16px;
+}
 
 .image-column_wrapper{
     align-items: center;
@@ -203,7 +209,12 @@ line-height: 8px;
         height: fit-content;
 }
     
-
+.image-wrapper {
+    width: 260px;
+    height: 265px;
+    padding: 1px;
+    top: 16px;
+}
 
 
 .image-column-text-wrapper {
