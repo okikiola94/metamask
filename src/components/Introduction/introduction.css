@@ -164,7 +164,7 @@ color: #FFFFFF;
     .introduction-container_wrapper{ 
     width: 100%;
     /* padding: 10%; */
-    height: 100vh;
+    height: fit-content;
     /* top: 11%; */
     /* left: 0px; */
     margin-top: 5px;
@@ -232,6 +232,7 @@ font-size: 49px;
     .image-cluster_container {
         padding: 0 10%;
         width: 80%;
+        height: fit-content;
     }
 
     
