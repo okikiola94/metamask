@@ -8,18 +8,18 @@
     padding: 1rem;
     position: fixed;
     top: 25vh;
-    width: 33.5rem;
+    width: 32.5rem;
     z-index: 100;
     opacity: 1;
-     transform: none;
-     box-shadow: 5px 1px 5px 10px #e9e5e5;
-     height: 28rem;
+    transform: none;
+    box-shadow: 5px 1px 5px 10px #e9e5e5;
+    height: 25rem;
 }
 
 .Wallet-popup_wrapper .First-input-popup-container-heading {
     border-bottom: 1.5px solid #cfd8dc;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
 }
 .Wallet-popup_wrapper .First-input-popup-container-heading, .Wallet-popup_wrapper .wallet-popup_image-wrapper, .Wallet-popup_wrapper .wallet-popup_side, .Wallet-popup_wrapper .second-wrapper_img-container{
     align-items: center;
@@ -38,12 +38,11 @@
     border: 1.5px solid #cfd8dc;
     border-radius: 0.7rem;
     cursor: pointer;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 0.5rem;
+    /* margin-bottom: 1rem; */
+    /* margin-top: 1rem; */
+    /* padding: 0.5rem; */
     transition: all .4s ease-in-out;
 }
-
 .Wallet-popup_wrapper .wallet-popup_side img {
     margin-right: 0.5rem;
 }
