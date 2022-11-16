@@ -30,12 +30,12 @@ const PopUp = (props) => {
           </li>
           <li>
           <div className="link-container">
-          <Link to="/fullname" id="contact">NFTs</Link>
+          <Link to="/" id="contact">NFTs</Link>
           </div>
           </li>
           <li>
           <div className="link-container">
-          <Link to="/fullname" id="contact">Community</Link>
+          <Link to="/" id="contact">Community</Link>
           </div>
           </li>
 
