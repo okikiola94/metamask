@@ -36,6 +36,11 @@ list-style: none;
 .popup-navigation-menu ul li{
     justify-content: center;
     padding-bottom: 2.5rem;
+    color: #000;
+font-size: 25px;
+line-height: 30px;
+font-family: 'Red rose';
+font-weight: 400;
 }
 
 .popup-navigation-menu ul li a{
