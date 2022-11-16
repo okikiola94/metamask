@@ -100,13 +100,14 @@ width: 150px;
 
     .logo-image_container {
         padding-left: 0%;
-        padding-top: 0px;
+        padding-top: 12px;
     }
     
     .hamburger{
         display: block;
         border: none;
         background-color: transparent;
+        padding-top: 12px;
     }
     
     .hamburger hr{
