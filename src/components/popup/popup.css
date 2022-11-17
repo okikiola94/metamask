@@ -1,55 +1,35 @@
-.popup-backdrop{
-    left: 0%;
-    top:0%;
-    position:fixed;
-    width: 100%;
+.popup-backdrop {
+    right: 0;
+    top: 0;
+    position: fixed;
+    width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg,#a02279 11.45%,#a02279 11.46%);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
     z-index: 2;
-}
-
-.popup-body{
-    width: 80%;
-    padding: 10%;
-}
-
-.popup-body img{
+    padding: 4rem;
+  }
+   
+  .popup_icon{
     width: 50px;
     height: 50px;
-    right: 0;
-}
-
-.popup-navigation-menu {
-    align-items: center;
-    height: 100vh;
-    margin-right: 14%;
-}
-
-.popup-navigation-menu ul{
-align-items: center;
-text-decoration: none;
-height: 80vh;
-list-style: none;
-
-}
-
-.popup-navigation-menu ul li{
-    justify-content: center;
-    padding-bottom: 2.5rem;
-    color: #000;
-font-size: 25px;
-line-height: 30px;
-font-family: 'Red rose';
-font-weight: 400;
-}
-
-.popup-navigation-menu ul li a{
+  }
+   
+  .popup-navigation-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+   
+  .popup-navigation-menu > a {
     text-decoration: none;
-color: #000;
-font-size: 25px;
-line-height: 30px;
-font-family: 'Red rose';
-font-weight: 400;
-}
-
-
+    color: #000;
+    font-size: 25px;
+    line-height: 30px;
+   
+  }
+   
+  
+  
