@@ -17,9 +17,7 @@ const Navbar = (props) => {
       <button className="hamburger" onClick={() => {
         setIsNavExpanded(!isNavExpanded);
       }}>
-        <hr className='line' />
-        <hr className='line' />
-        <hr className='line' />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="" />
       </button>
       {isNavExpanded && <PopUp exit={() => setIsNavExpanded(false)} />
       }
