@@ -50,9 +50,8 @@ const Navbar = (props) => {
           <Link to ="/" id="contact">Community</Link>
           </div>
           </li>
-         <li> <div className="avatar">
+         <li> 
            <Walletpopup/>
-          </div>
           </li>
         </ul>
         
