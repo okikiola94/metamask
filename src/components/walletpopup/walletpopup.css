@@ -1,56 +1,8 @@
-.avatar button{
-  
-    font-family: 'Red rose';
-    font-size: 18px;
-    font-weight: 400;
-width: 150px;
-     height: 50px;
-        
-        font-family: 'Red Rose';
-        font-style: normal;
-        font-size: 20px;
-        /* line-height: 30px; */
-        /* identical to box height */
-        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-        border: #A02279 solid 2px;
-        border-radius: 10px;
-        
-        /* white */
-        
-        color: #FFFFFF;
-        
-        
-        
-        cursor: pointer;
-        
+.connect-wallet{
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    font-size: 24px;
+    outline: none;
+    border: none;
+ 
 }
 
-@media only screen and (min-width:0px) and (max-width: 921px) {
-
-    .avatar button{
-        
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        
-        font-family: 'Red Rose';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 30px;
-        /* identical to box height */
-        background:  none;
-        border: none;
-        border-radius: 0;
-        
-        /* white */
-        
-        color: #000;
-        
-        
-        
-        cursor: pointer;
-        text-decoration: none;
-        }
-    
-    }
