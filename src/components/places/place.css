@@ -175,6 +175,13 @@ color: #333333;
 }
 
 
+.place-image-wrapper {
+    width: 260px;
+    height: 265px;
+    padding: 1px;
+    top: 16px;
+}
+
 .meta-Places-wrapper {
     width: 100%;
     margin-bottom: 72rem;
@@ -278,7 +285,12 @@ color: #333333;
     }
 
 
-
+    .place-image-wrapper {
+        width: 260px;
+        height: 265px;
+        padding: 1px;
+        top: 16px;
+    }
         .heading-grid-wrapper {
             margin: 2.5rem auto 0;
             max-width: 89vw;
