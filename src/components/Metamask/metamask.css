@@ -15,12 +15,30 @@
    
   .location-inspiration-grid_wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-    width: 100%;
+    grid-template-columns: repeat(4, 1fr);    width: 100%;
     align-items: center;
     place-items: center;
     justify-content: center;
     gap: 1.5rem;
+  }
+  @media only screen and (min-width: 1000px)and (max-width:1024px) {
+    .location-inspiration-grid_wrapper {
+      grid-template-columns: repeat(3, 1fr);    width: 100%;
+      
+    }
+  }
+
+  @media only screen and (min-width: 700px)and (max-width:1000px) {
+    .location-inspiration-grid_wrapper {
+      grid-template-columns: repeat(2, 1fr);    width: 100%;
+      
+    }
+  }
+  @media only screen and (max-width:699px) {
+    .location-inspiration-grid_wrapper {
+      grid-template-columns: repeat(1, 1fr);    width: 100%;
+      
+    }
   }
    
   .image-column_wrapper {

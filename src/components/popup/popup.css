@@ -9,18 +9,22 @@
     gap: 3rem;
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
     z-index: 2;
-    padding: 4rem;
+    /* padding: 4rem; */
   }
    
   .popup_icon{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    padding-block-start: 1rem;
+    padding-inline-start: 1rem;
+
   }
    
   .popup-navigation-menu {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    align-items: center;
   }
    
   .popup-navigation-menu > a {

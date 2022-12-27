@@ -1,11 +1,11 @@
 .NFT-container-wrapper {
-    width: 100vw;
-    max-width: 100vw;
-    padding: 3rem 6.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  /* width: 100vw;  */
+  /* max-width: 100vw; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   }
    
   .metabnb-text-wrapper-container {
